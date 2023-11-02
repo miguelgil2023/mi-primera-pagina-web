@@ -3,40 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mi Portafolio Personal</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #F49AC2;
+    }
+
+    .biografia {
+    background-color: #f0f0f0; /* Cambia el color de fondo aquí */
+    max-width: 800px;
+    margin: auto;
+    }
+    .habilidades {
+    background-color: #e0e0e0; /* Cambia el color de fondo aquí */
+    margin-top: 30px;
+    }
+
+    .nombre-de-la-seccion {
+    background-color: #cccccc; /* Cambia el color de fondo aquí */
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    a {
+        color: #FFB7C5;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Página Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#seccion1">Sección 1</a></li>
-                <li><a href="#seccion2">Sección 2</a></li>
-                <li><a href="#seccion3">Sección 3</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="seccion1">
-            <h2>Sección 1</h2>
-            <p>Contenido de la sección 1.</p>
-        </section>
-
-        <section id="seccion2">
-            <h2>Sección 2</h2>
-            <p>Contenido de la sección 2.</p>
-        </section>
-
-        <section id="seccion3">
-            <h2>Sección 3</h2>
-            <p>Contenido de la sección 3.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Mi Página Web</p>
-    </footer>
+    <div class="biografia">
+        <h1>Miguel Angel Gil Flores</h1>
+        <p>
+            Soy un apasionado desarrollador de software con una sólida formación en programación y una dedicación inquebrantable para resolver problemas con soluciones tecnológicas innovadoras.
+            Durante más de 20 años, he aplicado mi experiencia en preparación física y mi enfoque metódico del método Montessori para fomentar un ambiente educativo dinámico y participativo en colegios particulares. Estos años de experiencia me han enseñado la importancia de la adaptabilidad y la resolución creativa de problemas, habilidades que ahora aplico en el desarrollo de software.
+            Mi carrera en la programación comenzó con una fuerte base en [menciona lenguajes o tecnologías relevantes]. A lo largo de los años, he desarrollado y lanzado con éxito [menciona proyectos o aplicaciones destacadas], demostrando mi capacidad para escribir código limpio y eficiente, así como mi habilidad para trabajar en equipo.
+            Estoy entusiasmado por aplicar mi experiencia y pasión por la tecnología en nuevos desafíos. Mi portafolio refleja una muestra de mi trabajo y estoy ansioso por compartirlo contigo. ¡Espero tener la oportunidad de contribuir con mi experiencia y creatividad a tu equipo!
+        </p>
+        </div>
+        <div class="habilidades">
+        <h2>Habilidades</h2>
+        <div class="habilidad-item">
+            <span>Desarrollo Web:</span>
+            <div class="barra">
+                <div class="barra-progreso" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="habilidad-item">
+            <span>Programación en Python:</span>
+            <div class="barra">
+                <div class="barra-progreso" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="habilidad-item">
+            <span>Bases de Datos SQL:</span>
+            <div class="barra">
+                <div class="barra-progreso" style="width: 75%;"></div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
